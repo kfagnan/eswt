@@ -1,0 +1,835 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  24 FEB 2013 09:59
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**eswt_rewrite.tex
+(./eswt_rewrite.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
+ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
+rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
+kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
+ polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbianc, s
+lovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, 
+welsh, loaded.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks14
+\ex@=\dimen103
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count87
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count88
+\leftroot@=\count89
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count90
+\DOTSCASE@=\count91
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count92
+\c@MaxMatrixCols=\count93
+\dotsspace@=\muskip10
+\c@parentequation=\count94
+\dspbrk@lvl=\count95
+\tag@help=\toks15
+\row@=\count96
+\column@=\count97
+\maxfields@=\count98
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count99
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psfrag/psfrag.sty
+Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
+\pfg@pcount=\count100
+\pfg@scount=\count101
+\pfg@temp=\write3
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count102
+\lst@gtempboxa=\box28
+\lst@token=\toks20
+\lst@length=\count103
+\lst@currlwidth=\dimen114
+\lst@column=\count104
+\lst@pos=\count105
+\lst@lostspace=\dimen115
+\lst@width=\dimen116
+\lst@newlines=\count106
+\lst@lineno=\count107
+\lst@maxwidth=\dimen117
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count108
+\lst@skipnumbers=\count109
+\lst@framebox=\box29
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+No file eswt_rewrite.aux.
+\openout1 = `eswt_rewrite.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+(/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count110
+\scratchdimen=\dimen118
+\scratchbox=\box30
+\nofMPsegments=\count111
+\nofMParguments=\count112
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count113
+\MPscratchDim=\dimen119
+\MPnumerator=\count114
+\makeMPintoPDFobject=\count115
+\everyMPtoPDFconversion=\toks22
+) (/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@lstlisting=\count116
+LaTeX Font Info:    Try loading font information for U+msa on input line 27.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 27.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+) [1
+Non-PDF special ignored!
+
+{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+\openout2 = `intro.aux'.
+
+ (./intro.tex
+
+LaTeX Warning: Citation `ogden' on page 2 undefined on input line 13.
+
+./intro.tex:25: Undefined control sequence.
+l.25 ...ent of heterotopic ossifications (see \Sec
+                                                  {ho}) larger
+? 
+
+LaTeX Warning: Reference `fig:hm3_diagram' on page 2 undefined on input line 28
+.
+
+./intro.tex:51: Undefined control sequence.
+l.51 state (see \Sec
+                    {eos}).   These initial conditions are then fed into a full
+
+? 
+<lithotripter_schematic.png, id=14, 544.0325pt x 494.84875pt>
+File: lithotripter_schematic.png Graphic file (type png)
+
+<use lithotripter_schematic.png>
+Package pdftex.def Info: lithotripter_schematic.png used on input line 56.
+(pdftex.def)             Requested size: 190.41423pt x 173.19966pt.
+
+<lithotripter_edge_wave.png, id=15, 544.0325pt x 494.84875pt>
+File: lithotripter_edge_wave.png Graphic file (type png)
+
+<use lithotripter_edge_wave.png>
+Package pdftex.def Info: lithotripter_edge_wave.png used on input line 57.
+(pdftex.def)             Requested size: 190.41423pt x 173.19966pt.
+
+./intro.tex:66: Undefined control sequence.
+l.66 \Sec
+         {HO}.
+? 
+[2
+
+ <./lithotripter_schematic.png> <./lithotripter_edge_wave.png>]
+./intro.tex:124: Undefined control sequence.
+l.124 \Sec
+          {eos_discussion}) in two-dimensional axisymmetric geometry is used...
+
+? 
+./intro.tex:124: Missing $ inserted.
+<inserted text> 
+                $
+l.124 \Sec{eos_
+               discussion}) in two-dimensional axisymmetric geometry is used...
+
+? 
+./intro.tex:124: Extra }, or forgotten $.
+l.124 \Sec{eos_discussion}
+                          ) in two-dimensional axisymmetric geometry is used...
+
+? 
+./intro.tex:133: Missing $ inserted.
+<inserted text> 
+                $
+l.133 
+      
+? 
+
+Overfull \hbox (887.90117pt too wide) in paragraph at lines 123--133
+[]\OT1/cmr/m/n/10 The com-press-ible Eu-ler equa-tions with the Tam-man equa-ti
+on of state (see eos$[]\OML/cmm/m/it/10 iscussion\OT1/cmr/m/n/10 )\OML/cmm/m/it
+/10 intwo \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 dimensionalaxisymmetricgeometry
+isusedtomodeltheintialformationofthefocusingshockwave:Theseinitialconditionsare
+thenfedintoacodethatusesasimplernonlinearmodel; theTaitequationofstate; inathre
+e \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (337.82101pt too wide) in paragraph at lines 123--133
+\OML/cmm/m/it/10 dimensionalsimulationofthefluid:Thecompressiblefluidequationsa
+rewrittenusingaLagrangianformulationthateasilycouplestotheisotropiclinearelasti
+cityequationsusedinthebone \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (131.45149pt too wide) in paragraph at lines 123--133
+\OML/cmm/m/it/10 likematerial:Theresultingequationshavethesameformeverywhere; w
+ithadifferentstress \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 strainrelationshipint
+hedifferentmaterials:$ 
+ []
+
+
+LaTeX Warning: Citation `??' on page 3 undefined on input line 135.
+
+
+LaTeX Warning: Citation `claw.org.url' on page 3 undefined on input line 136.
+
+./intro.tex:148: Undefined control sequence.
+l.148 ...rface.  This is described further in \Sec
+                                                  {??}.
+? 
+./intro.tex:150: Undefined control sequence.
+l.150 are sufficiently similar and in \Sec
+                                          {??} we show that this is the case...
+
+? 
+./intro.tex:158: Undefined control sequence.
+l.158 initial shock wave described in \Sec
+                                          {??}.  For the three-dimensional
+? 
+
+LaTeX Warning: Citation `??' on page 3 undefined on input line 159.
+
+
+LaTeX Warning: Citation `chomboclaw' on page 3 undefined on input line 160.
+
+
+LaTeX Warning: Citation `??' on page 3 undefined on input line 179.
+
+./intro.tex:180: Undefined control sequence.
+l.180 validate our numerical approach (see \Sec
+                                               {??}).
+? 
+[3]
+
+LaTeX Warning: Citation `hamilton' on page 4 undefined on input line 186.
+
+
+LaTeX Warning: Citation `christopher_hm3' on page 4 undefined on input line 190
+.
+
+
+LaTeX Warning: Citation `coleman' on page 4 undefined on input line 192.
+
+
+LaTeX Warning: Citation `cleveland_averkiou' on page 4 undefined on input line 
+193.
+
+
+LaTeX Warning: Citation `tanguay' on page 4 undefined on input line 194.
+
+
+LaTeX Warning: Citation `oleg_cleveland' on page 4 undefined on input line 203.
+
+
+) [4]
+
+LaTeX Warning: Citation `hamilton' on page 5 undefined on input line 58.
+
+
+LaTeX Warning: Citation `toro_ivings' on page 5 undefined on input line 58.
+
+
+LaTeX Warning: Reference `eqn:euler2D' on page 5 undefined on input line 92.
+
+
+LaTeX Warning: Reference `eqn:euler2D' on page 5 undefined on input line 97.
+
+
+LaTeX Warning: Reference `eqn:2daxisymeuler' on page 5 undefined on input line 
+97.
+
+
+LaTeX Warning: Citation `thompson' on page 5 undefined on input line 99.
+
+
+LaTeX Warning: Citation `ivings_toro' on page 5 undefined on input line 99.
+
+
+LaTeX Warning: Citation `saito' on page 5 undefined on input line 101.
+
+
+LaTeX Warning: Citation `nakahara_hugoniot' on page 5 undefined on input line 1
+01.
+
+
+LaTeX Warning: Citation `thompson' on page 5 undefined on input line 104.
+
+
+LaTeX Warning: Citation `nakahara' on page 5 undefined on input line 108.
+
+[5
+
+]
+
+LaTeX Warning: Reference `eqn:1dlageulfixgrid' on page 6 undefined on input lin
+e 130.
+
+
+LaTeX Warning: Reference `fig:tait_tamman' on page 6 undefined on input line 13
+3.
+
+<tamman_tait_pressure_zoom.pdf, id=36, 739.76375pt x 371.3875pt>
+File: tamman_tait_pressure_zoom.pdf Graphic file (type pdf)
+
+<use tamman_tait_pressure_zoom.pdf>
+Package pdftex.def Info: tamman_tait_pressure_zoom.pdf used on input line 149.
+(pdftex.def)             Requested size: 144.54118pt x 108.4023pt.
+
+<lagrangian_eulerian.pdf, id=37, 1023.825pt x 828.09375pt>
+File: lagrangian_eulerian.pdf Graphic file (type pdf)
+
+<use lagrangian_eulerian.pdf>
+Package pdftex.def Info: lagrangian_eulerian.pdf used on input line 150.
+(pdftex.def)             Requested size: 144.53743pt x 108.40147pt.
+
+
+LaTeX Warning: Reference `eqn:taiteos' on page 6 undefined on input line 194.
+
+[6
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Elasticity equatio
+ns}{6}}
+\newlabel{sec:elasticity}{{2.2}{6}}
+\newlabel{eqn:nlelast}{{7}{6}}
+ <./tamman_tait_pressure_zoom.pdf> <./lagrangian_eulerian.pdf>]
+
+LaTeX Warning: Reference `fig:tait_tamman' on page 7 undefined on input line 21
+3.
+
+
+LaTeX Warning: Reference `eqn:2daxisymeuler' on page 7 undefined on input line 
+215.
+
+
+LaTeX Warning: Reference `eqn:elastiic' on page 7 undefined on input line 216.
+
+
+LaTeX Warning: Reference `eqn:taiteos' on page 7 undefined on input line 221.
+
+
+LaTeX Warning: Reference `eqn:tait_taylor' on page 7 undefined on input line 22
+7.
+
+
+LaTeX Warning: Reference `fig:tait_linearization' on page 7 undefined on input 
+line 233.
+
+<linearization_small_amp.pdf, id=60, 1279.78125pt x 910.40125pt>
+File: linearization_small_amp.pdf Graphic file (type pdf)
+
+<use linearization_small_amp.pdf>
+Package pdftex.def Info: linearization_small_amp.pdf used on input line 236.
+(pdftex.def)             Requested size: 144.54pt x 102.81163pt.
+
+<med_amplitude_comp.pdf, id=61, 1279.78125pt x 910.40125pt>
+File: med_amplitude_comp.pdf Graphic file (type pdf)
+
+<use med_amplitude_comp.pdf>
+Package pdftex.def Info: med_amplitude_comp.pdf used on input line 237.
+(pdftex.def)             Requested size: 144.54pt x 102.81163pt.
+
+<higher_amplitude.pdf, id=62, 1279.78125pt x 910.40125pt>
+File: higher_amplitude.pdf Graphic file (type pdf)
+
+<use higher_amplitude.pdf>
+Package pdftex.def Info: higher_amplitude.pdf used on input line 238.
+(pdftex.def)             Requested size: 144.54pt x 102.81163pt.
+ [7
+\newlabel{fig:tait_linearization}{{2.2}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces I will ma
+ke these look better later if we decide to include them. I'm trying to think of
+ a better plot... maybe error vs. amplitude or something like that to just summ
+arize the results}}{7}}
+\newlabel{eqn:tait_taylor}{{12}{7}}
+ <./linearization_small_amp.pdf> <./med_amplitude_comp.pdf> <./higher_amplitude
+.pdf>]
+\citation{burr}
+
+LaTeX Warning: Citation `burr' on page 8 undefined on input line 254.
+
+./eswt_rewrite.tex:256: Undefined control sequence.
+l.256 ...ons and the methodology discussed in \Sec
+                                                  {numerics}, we are able to
+? 
+
+LaTeX Warning: Reference `fig:tait_tammann' on page 8 undefined on input line 2
+66.
+
+\citation{rjl_book}
+
+LaTeX Warning: Citation `rjl_book' on page 8 undefined on input line 272.
+
+\citation{clawpack}
+
+LaTeX Warning: Citation `clawpack' on page 8 undefined on input line 273.
+
+
+LaTeX Warning: Reference `sys:nlelast' on page 8 undefined on input line 273.
+
+\citation{rjl_nonlinear}
+
+LaTeX Warning: Citation `rjl_nonlinear' on page 8 undefined on input line 275.
+
+\citation{rjl_book}
+
+LaTeX Warning: Citation `rjl_book' on page 8 undefined on input line 281.
+
+\citation{rjl_nolnlinear}
+
+LaTeX Warning: Citation `rjl_nolnlinear' on page 8 undefined on input line 281.
+
+
+
+LaTeX Warning: Reference `sys:nlelast' on page 8 undefined on input line 281.
+
+
+LaTeX Warning: Reference `eqn:nlelast' on page 8 undefined on input line 292.
+
+\citation{rjl_book}
+
+LaTeX Warning: Citation `rjl_book' on page 8 undefined on input line 293.
+
+\citation{rjl_bale_rossmanith}
+
+LaTeX Warning: Citation `rjl_bale_rossmanith' on page 8 undefined on input line
+ 314.
+
+[8
+\@writefile{toc}{\contentsline {section}{\numberline {3}Numerical Methodology}{
+8}}
+\newlabel{sec:numerics}{{3}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Approximate Rieman
+n Solver}{8}}
+\newlabel{sec:riemann_solver}{{3.1}{8}}
+]
+
+LaTeX Warning: Reference `fig:riemann_tait_elas' on page 9 undefined on input l
+ine 317.
+
+./eswt_rewrite.tex:354: Undefined control sequence.
+l.354 \0
+        &0&0&0&0&0&0&0&0\\0&0&0&0&0&0&0&0&\frac{1}{2\rho}\\ \sigma^{11}_{\ep...
+
+? 
+./eswt_rewrite.tex:354: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.354 \0&
+         0&0&0&0&0&0&0&0\\0&0&0&0&0&0&0&0&\frac{1}{2\rho}\\ \sigma^{11}_{\ep...
+
+? 
+[9
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Solution of the Ri
+emann Problem for 3D Nonlinear Elasticity}{9}}
+\newlabel{sec:3Delasticity}{{3.2}{9}}
+\newlabel{eqn: 3dlgeulsys}{{14}{9}}
+\newlabel{eqn:jac3dlgeul}{{16}{9}}
+]
+
+LaTeX Warning: Reference `eqn:jac3dlgeul' on page 10 undefined on input line 36
+7.
+
+
+LaTeX Warning: Reference `eqn:jac3dlgeul' on page 10 undefined on input line 37
+5.
+
+
+Overfull \hbox (52.0761pt too wide) detected at line 422
+[] [] \OT1/cmr/m/n/10 = [] \OML/cmm/m/it/10 :
+ []
+
+[10
+\newlabel{eqn:3dlgeuleval}{{17}{10}}
+\newlabel{eqn:3dlgeulevec}{{18}{10}}
+\newlabel{eqn:2dlgeulfwave}{{19}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Transverse solvers
+}{10}}
+]
+
+LaTeX Warning: Reference `eqn:sigepstait' on page 11 undefined on input line 45
+5.
+
+./eswt_rewrite.tex:466: Undefined control sequence.
+l.466 ...e fluid.  As demonstrated in Section \Sec
+                                                  {??}, the velocities of th...
+
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 473--475
+
+ []
+
+[11
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Wave speeds}{11}}
+\newlabel{sec:wavespeeds}{{3.4}{11}}
+\newlabel{eqn:sigepstait}{{20}{11}}
+\newlabel{eqn:lagisenspeed}{{21}{11}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Axisymmetric form 
+of the equations}{11}}
+\newlabel{sec:axisym}{{3.5}{11}}
+]
+
+LaTeX Warning: Reference `eqn:3dcyllageul' on page 12 undefined on input line 5
+15.
+
+
+LaTeX Warning: Reference `eqn:3daxisym' on page 12 undefined on input line 533.
+
+
+[12
+\newlabel{eqn: 3dcyllageul}{{26}{12}}
+\newlabel{eqn:3daxisym}{{27}{12}}
+]
+
+LaTeX Warning: Reference `fig:steepening' on page 13 undefined on input line 56
+4.
+
+<grid_refinement_steepening.pdf, id=109, 1087.06125pt x 910.40125pt>
+File: grid_refinement_steepening.pdf Graphic file (type pdf)
+
+<use grid_refinement_steepening.pdf>
+Package pdftex.def Info: grid_refinement_steepening.pdf used on input line 569.
+
+(pdftex.def)             Requested size: 144.54083pt x 144.52806pt.
+
+\citation{chomboclaw}
+
+LaTeX Warning: Citation `chomboclaw' on page 13 undefined on input line 575.
+
+\citation{teragrid}
+
+LaTeX Warning: Citation `teragrid' on page 13 undefined on input line 577.
+
+\citation{collela_correspondance}
+
+LaTeX Warning: Citation `collela_correspondance' on page 13 undefined on input 
+line 578.
+
+<timing.pdf, id=110, 1087.06125pt x 910.40125pt>
+File: timing.pdf Graphic file (type pdf)
+ <use timing.pdf>
+Package pdftex.def Info: timing.pdf used on input line 582.
+(pdftex.def)             Requested size: 144.54083pt x 144.52806pt.
+
+<reflect1.pdf, id=111, 614.295pt x 794.97pt>
+File: reflect1.pdf Graphic file (type pdf)
+ <use reflect1.pdf>
+Package pdftex.def Info: reflect1.pdf used on input line 596.
+(pdftex.def)             Requested size: 144.53743pt x 144.53192pt.
+
+<reflect2.pdf, id=112, 614.295pt x 794.97pt>
+File: reflect2.pdf Graphic file (type pdf)
+ <use reflect2.pdf>
+Package pdftex.def Info: reflect2.pdf used on input line 597.
+(pdftex.def)             Requested size: 144.53743pt x 144.53192pt.
+
+<swallow_tail4.jpg, id=113, 562.1pt x 421.575pt>
+File: swallow_tail4.jpg Graphic file (type jpg)
+ <use swallow_tail4.jpg>
+Package pdftex.def Info: swallow_tail4.jpg used on input line 598.
+(pdftex.def)             Requested size: 144.53867pt x 144.54294pt.
+
+<pressure_hm3.pdf, id=114, 614.295pt x 794.97pt>
+File: pressure_hm3.pdf Graphic file (type pdf)
+ <use pressure_hm3.pdf>
+Package pdftex.def Info: pressure_hm3.pdf used on input line 605.
+(pdftex.def)             Requested size: 144.53743pt x 144.53192pt.
+
+<minimum_pstress_water.pdf, id=115, 959.585pt x 828.09375pt>
+File: minimum_pstress_water.pdf Graphic file (type pdf)
+
+<use minimum_pstress_water.pdf>
+Package pdftex.def Info: minimum_pstress_water.pdf used on input line 606.
+(pdftex.def)             Requested size: 144.53186pt x 144.5395pt.
+
+\citation{amath_apl_nonunion}
+
+LaTeX Warning: Citation `amath_apl_nonunion' on page 13 undefined on input line
+ 618.
+
+\citation{fagnan_chang_ho}
+
+LaTeX Warning: Citation `fagnan_chang_ho' on page 13 undefined on input line 61
+9.
+
+\citation{kfagnan_mchang_ho}
+
+LaTeX Warning: Citation `kfagnan_mchang_ho' on page 13 undefined on input line 
+630.
+
+<hip_comp_direct.png, id=116, 1027.84pt x 1027.84pt>
+File: hip_comp_direct.png Graphic file (type png)
+ <use hip_comp_direct.png>
+Package pdftex.def Info: hip_comp_direct.png used on input line 634.
+(pdftex.def)             Requested size: 256.95937pt x 256.95937pt.
+
+<hip_tens_direct_ydir.png, id=117, 1027.84pt x 1027.84pt>
+File: hip_tens_direct_ydir.png Graphic file (type png)
+
+<use hip_tens_direct_ydir.png>
+Package pdftex.def Info: hip_tens_direct_ydir.png used on input line 635.
+(pdftex.def)             Requested size: 256.95937pt x 256.95937pt.
+ [13
+\newlabel{eqn:axisymeulsource}{{30}{13}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}Adaptive Mesh Refi
+nement}{13}}
+\newlabel{sec:amr}{{3.6}{13}}
+\newlabel{fig:steepening}{{3.6}{13}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Effect of
+ grid size on shock wave profile}}{13}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.7}Interfaces and the
+ Cartesian Grid}{13}}
+\newlabel{sec:interfaces}{{3.7}{13}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Results}{13}}
+\newlabel{sec:results}{{4}{13}}
+ <./grid_refinement_steepening.pdf>] [14
+\newlabel{fig:scaling}{{3.6}{14}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Result fr
+om strong scaling test of ChomboClaw up to 128 processors.}}{14}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Sample ca
+lculations, too coarse, will be replaced with images from a job running now}}{1
+4}}
+\newlabel{fig:scaling}{{3.7}{14}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces a)Redo wi
+th pressure and time-scale labels b)Validation that our Lagrangian code generat
+es the correct cigar shaped region of minimum principal stress, or maximum pres
+sure. This was generated using the 2D Axisymmetric Lagrangian code with the Tai
+t EOS.}}{14}}
+ <./timing.pdf> <./reflect1.pdf> <./reflect2.pdf> <./swallow_tail4.jpg> <./pres
+sure_hm3.pdf> <./minimum_pstress_water.pdf>] [15
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Heterotopic Ossifi
+cation}{15}}
+\newlabel{sec:ho}{{4.1}{15}}
+] [16
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Isosurfac
+e of a) Maximum Compression and b) Maximum Tension in the HO shot directly.}}{1
+6}}
+ <./hip_comp_direct.png (PNG copy)> <./hip_tens_direct_ydir.png (PNG copy)>]
+(./eswt_rewrite.aux (./intro.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3889 strings out of 493488
+ 54243 string characters out of 3141326
+ 126947 words of memory out of 3000000
+ 7118 multiletter control sequences out of 15000+200000
+ 13428 words of font info for 51 fonts, out of 3000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 38i,13n,32p,622b,298s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
+usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
+sr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/
+local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/lo
+cal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
+l/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/
+texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/te
+xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texli
+ve/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/
+2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/201
+2/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2012/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2012/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2012/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2012/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2012/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on eswt_rewrite.pdf (16 pages, 1412659 bytes).
+PDF statistics:
+ 228 PDF objects out of 1000 (max. 8388607)
+ 150 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+

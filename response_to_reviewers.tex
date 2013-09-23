@@ -1,0 +1,47 @@
+\documentclass{report}
+
+\usepackage{amsmath,amssymb}
+\textwidth=6.0in
+\textheight=8.9in
+\evensidemargin -0.04cm
+\oddsidemargin -0.04cm
+\topmargin -0.5in
+\begin{document}
+\paragraph{Response to Reviewers- CAMCoS Submission} 
+\paragraph{Computational Models of Material Interfaces for the Study of Extracorporeal Shock Wave Therapy}
+
+\paragraph{}
+We would like to thank the editor and both reviewers for their time and insightful critique of our paper.  We hope we have adequately addressed the concerns expressed by both reviewers and are re-submitting our paper for further consideration. 
+
+
+\paragraph{Response to Reviewer 1}
+The formulation of the axisymmetric equations with a geometric source terms is used so we can write the equations in a form that is well suited to being solved with finite volume methods.  We use cell-centered values for the evaluation of the ODEs in time, so we never actually evaluate r at 0, it is evaluated at the midpoint of the cell or $r=.5*\Delta x$.  Once we have the updated value for the conserved quantities, in this case, the strain or stress, we average these values back onto the grid.  The boundary conditions at $r=0$ are set to be a solid wall, which means that the ghost cell values are set to the same value as the neighboring cell in the domain, but the normal velocity is negated (i.e. the velocity in the r-direction).  This has the effect that any waves approaching $r=0$ are reflected back into the domain, modeling correctly the behavior in an axi-symmetric situation.
+
+If the waves are not actually propagating in a direction that is exactly normal to the interface, then these boundary conditions will not be perfectly accurate.  The differing wave interaction at $x=122$ may be caused by these reflections.
+
+The 2D calculation is subject to less numerical dissipation, but the 3D case does not have the solid wall boundary condition, so there will not be perfect agreement.  There is also some error associated with averaging the 2D initial condition onto the 3D grid, that will lead to some discrepancy in the results.  The two give reasonable agreement in that the location of the maximum stress and the amplitude are roughly the same.  We only have photoelastic images to compare against, so it is difficult to know what the exact profile should be. 
+
+In Figure 5, the reviewer noticed that the convergence rate of the solution to a shock is not second-order.  This is what we expect when the solution develops a discontinuity.  In the wave-propagation algorithm, we use a piecewise linear reconstruction of the conserved quantities in each grid cell, but the solution is limited around discontinuities to prevent spurious oscillations in the solution.  This has the effect of making the solution first-order near a discontinuity, but away from a discontinuity, we expect the method to be second-order. 
+
+Equation 11 is a Taylor series expansion of the equation of state with a
+small perturbation to the strain, $\epsilon$.  We attempted to rewrite this, so hopefully it is clearer.
+
+Equation 4 is the proper form for the axisymmetric Euler equations, see for example reference [40] for a complete description.  
+
+\begin{itemize}
+\item Various typos itemized in review 1 were fixed, points 2, 5, 11
+\item We made the suggested changes for the terminology and try to clarify some of the biology in the discussions.
+\item We clarified the text and caption to more fully explain what the interface was at $x = 50$.
+\item The reference to Figure 3 was fixed
+\item The caption in Figure 4 was fixed
+\item We made the figures larger and added arrows to show the direction of the wave propagation 
+\end{itemize}
+
+\paragraph{Response to Reviewer 2}
+We have removed some of the biological discussions from the paper and have stressed that we are not claiming to give clinical advice with this work.  We have performed calculations to show how the methodology that has been developed could be used to investigate biological phenomena, but it will require further collaboration with biologists, medical doctors and engineers in order to both design meaningful experiments and further refine the model. 
+
+We have also included more detailed references on the role of mechanical stimulation in bone healing.  In particular references on the role of shear and compressive stress as well as their relation to mechanotransduction were included.  We have not found papers in the literature, beyond those that were referenced here, that are directly related to the type of computational and mathematical modeling done in this work.  If the reviewer has any specific references in mind, please let us know what they are, and we will gladly investigate them.  
+
+We have rewritten some of the language in the results and discussion sections so that it does not appear we are trying to give clinical advice.  The previous version was influenced by discussions that we have had with the clinician we are working with on the heterotopic ossification work.  However, we certainly do not want to give the impression of providing medical advice in this paper, as this would be premature and inappropriate for this journal.  
+
+\end{document}
