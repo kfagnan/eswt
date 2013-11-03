@@ -1,9 +1,8 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  24 FEB 2013 12:15
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  2 NOV 2013 22:05
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**eswt.tex
+**eswt
 (./eswt.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
@@ -434,138 +433,138 @@ Package amsmath Warning: Foreign command \over;
 File: pressure_comp_zoom.pdf Graphic file (type pdf)
 
 <use pressure_comp_zoom.pdf>
-Package pdftex.def Info: pressure_comp_zoom.pdf used on input line 462.
+Package pdftex.def Info: pressure_comp_zoom.pdf used on input line 464.
 (pdftex.def)             Requested size: 144.52571pt x 108.40147pt.
 
 <lagrangian_eulerian.pdf, id=252, 1023.825pt x 828.09375pt>
 File: lagrangian_eulerian.pdf Graphic file (type pdf)
 
 <use lagrangian_eulerian.pdf>
-Package pdftex.def Info: lagrangian_eulerian.pdf used on input line 463.
+Package pdftex.def Info: lagrangian_eulerian.pdf used on input line 465.
 (pdftex.def)             Requested size: 144.53743pt x 108.40147pt.
  [6] [7 <./pressure_comp_zoom.pdf> <./lagrangian_eulerian.pdf>] <smaller_amp.pd
 f, id=294, 577.15625pt x 373.395pt>
 File: smaller_amp.pdf Graphic file (type pdf)
 
 <use smaller_amp.pdf>
-Package pdftex.def Info: smaller_amp.pdf used on input line 551.
+Package pdftex.def Info: smaller_amp.pdf used on input line 553.
 (pdftex.def)             Requested size: 144.54pt x 93.50804pt.
  <medium_amp.pdf, id=295, 590.205pt x 364.36125pt>
 File: medium_amp.pdf Graphic file (type pdf)
 
 <use medium_amp.pdf>
-Package pdftex.def Info: medium_amp.pdf used on input line 552.
+Package pdftex.def Info: medium_amp.pdf used on input line 554.
 (pdftex.def)             Requested size: 144.54pt x 89.22758pt.
  <higher_amp.pdf, id=296, 597.23125pt x 370.38374pt>
 File: higher_amp.pdf Graphic file (type pdf)
 
 <use higher_amp.pdf>
-Package pdftex.def Info: higher_amp.pdf used on input line 553.
+Package pdftex.def Info: higher_amp.pdf used on input line 555.
 (pdftex.def)             Requested size: 144.54pt x 89.63992pt.
  [8 <./smaller_amp.pdf> <./medium_amp.pdf> <./higher_amp.pdf>] [9] [10] [11] [1
 2] [13]
-<amr_grid_ltblue.pdf, id=471, 357.75542pt x 248.93004pt>
+<amr_grid_ltblue.pdf, id=470, 357.75542pt x 248.93004pt>
 File: amr_grid_ltblue.pdf Graphic file (type pdf)
 
 <use amr_grid_ltblue.pdf>
-Package pdftex.def Info: amr_grid_ltblue.pdf used on input line 1096.
+Package pdftex.def Info: amr_grid_ltblue.pdf used on input line 1098.
 (pdftex.def)             Requested size: 186.96188pt x 130.08621pt.
 
-<amr_vs_singlegrid.pdf, id=472, 593.21625pt x 370.38374pt>
+<amr_vs_singlegrid.pdf, id=471, 593.21625pt x 370.38374pt>
 File: amr_vs_singlegrid.pdf Graphic file (type pdf)
 
 <use amr_vs_singlegrid.pdf>
-Package pdftex.def Info: amr_vs_singlegrid.pdf used on input line 1097.
+Package pdftex.def Info: amr_vs_singlegrid.pdf used on input line 1099.
 (pdftex.def)             Requested size: 202.55981pt x 126.47249pt.
  [14]
-<variable_deltax_pressure.pdf, id=486, 593.21625pt x 370.38374pt>
+<variable_deltax_pressure.pdf, id=485, 593.21625pt x 370.38374pt>
 File: variable_deltax_pressure.pdf Graphic file (type pdf)
 
 <use variable_deltax_pressure.pdf>
-Package pdftex.def Info: variable_deltax_pressure.pdf used on input line 1123.
+Package pdftex.def Info: variable_deltax_pressure.pdf used on input line 1125.
 (pdftex.def)             Requested size: 289.37505pt x 180.67499pt.
  [15 <./amr_grid_ltblue.pdf> <./amr_vs_singlegrid.pdf>] <amr_stress10_rwb.pdf, 
 id=551, 593.21625pt x 371.3875pt>
 File: amr_stress10_rwb.pdf Graphic file (type pdf)
 
 <use amr_stress10_rwb.pdf>
-Package pdftex.def Info: amr_stress10_rwb.pdf used on input line 1162.
+Package pdftex.def Info: amr_stress10_rwb.pdf used on input line 1165.
 (pdftex.def)             Requested size: 195.12767pt x 122.16156pt.
 
 <amr_stress70_rwb.pdf, id=552, 593.21625pt x 371.3875pt>
 File: amr_stress70_rwb.pdf Graphic file (type pdf)
 
 <use amr_stress70_rwb.pdf>
-Package pdftex.def Info: amr_stress70_rwb.pdf used on input line 1163.
+Package pdftex.def Info: amr_stress70_rwb.pdf used on input line 1166.
 (pdftex.def)             Requested size: 195.12767pt x 122.16156pt.
 
 <amr_stress180_rwb.pdf, id=553, 593.21625pt x 371.3875pt>
 File: amr_stress180_rwb.pdf Graphic file (type pdf)
 
 <use amr_stress180_rwb.pdf>
-Package pdftex.def Info: amr_stress180_rwb.pdf used on input line 1164.
+Package pdftex.def Info: amr_stress180_rwb.pdf used on input line 1167.
 (pdftex.def)             Requested size: 195.12767pt x 122.16156pt.
 
 <amr_25_pressure.pdf, id=554, 593.21625pt x 370.38374pt>
 File: amr_25_pressure.pdf Graphic file (type pdf)
 
 <use amr_25_pressure.pdf>
-Package pdftex.def Info: amr_25_pressure.pdf used on input line 1165.
+Package pdftex.def Info: amr_25_pressure.pdf used on input line 1168.
 (pdftex.def)             Requested size: 195.12767pt x 121.83139pt.
  [16 <./variable_deltax_pressure.pdf>] [17 <./amr_stress10_rwb.pdf> <./amr_stre
 ss70_rwb.pdf> <./amr_stress180_rwb.pdf> <./amr_25_pressure.pdf>]
-<sphere_comp/compress_axisym_contour.png, id=653, 741.77126pt x 464.73625pt>
+<sphere_comp/compress_axisym_contour.png, id=652, 741.77126pt x 464.73625pt>
 File: sphere_comp/compress_axisym_contour.png Graphic file (type png)
 
 <use sphere_comp/compress_axisym_contour.png>
 Package pdftex.def Info: sphere_comp/compress_axisym_contour.png used on input 
-line 1191.
+line 1194.
 (pdftex.def)             Requested size: 180.67499pt x 113.19124pt.
 
-<sphere_comp/compress_contour_3d_annotate.png, id=654, 1027.84pt x 767.86874pt>
+<sphere_comp/compress_contour_3d_annotate.png, id=653, 1027.84pt x 767.86874pt>
 File: sphere_comp/compress_contour_3d_annotate.png Graphic file (type png)
 <use sphere_comp/compress_contour_3d_annotate.png>
 Package pdftex.def Info: sphere_comp/compress_contour_3d_annotate.png used on i
-nput line 1192.
+nput line 1195.
 (pdftex.def)             Requested size: 162.6075pt x 121.47893pt.
 
-<sphere_comp/tension_axisym_contour.png, id=655, 741.77126pt x 464.73625pt>
+<sphere_comp/tension_axisym_contour.png, id=654, 741.77126pt x 464.73625pt>
 File: sphere_comp/tension_axisym_contour.png Graphic file (type png)
 
 <use sphere_comp/tension_axisym_contour.png>
 Package pdftex.def Info: sphere_comp/tension_axisym_contour.png used on input l
-ine 1195.
+ine 1198.
 (pdftex.def)             Requested size: 180.67499pt x 113.19124pt.
 
-<sphere_comp/tension_contour_3d_annotate.png, id=656, 1027.84pt x 767.86874pt>
+<sphere_comp/tension_contour_3d_annotate.png, id=655, 1027.84pt x 767.86874pt>
 File: sphere_comp/tension_contour_3d_annotate.png Graphic file (type png)
 
 <use sphere_comp/tension_contour_3d_annotate.png>
 Package pdftex.def Info: sphere_comp/tension_contour_3d_annotate.png used on in
-put line 1196.
+put line 1199.
 (pdftex.def)             Requested size: 162.6075pt x 121.47893pt.
 
-<sphere_comp/max_shear_axisym_contour.png, id=657, 593.417pt x 371.789pt>
+<sphere_comp/max_shear_axisym_contour.png, id=656, 593.417pt x 371.789pt>
 File: sphere_comp/max_shear_axisym_contour.png Graphic file (type png)
 
 <use sphere_comp/max_shear_axisym_contour.png>
 Package pdftex.def Info: sphere_comp/max_shear_axisym_contour.png used on input
- line 1199.
+ line 1202.
 (pdftex.def)             Requested size: 180.67499pt x 113.19408pt.
 
-<sphere_comp/shear_contour_3d_annotate.png, id=658, 1027.84pt x 767.86874pt>
+<sphere_comp/shear_contour_3d_annotate.png, id=657, 1027.84pt x 767.86874pt>
 File: sphere_comp/shear_contour_3d_annotate.png Graphic file (type png)
 
 <use sphere_comp/shear_contour_3d_annotate.png>
 Package pdftex.def Info: sphere_comp/shear_contour_3d_annotate.png used on inpu
-t line 1200.
+t line 1203.
 (pdftex.def)             Requested size: 162.6075pt x 121.47893pt.
 
-<sphere_comp/max_shear_1D.png, id=659, 593.417pt x 371.789pt>
+<sphere_comp/max_shear_1D.png, id=658, 593.417pt x 371.789pt>
 File: sphere_comp/max_shear_1D.png Graphic file (type png)
 
 <use sphere_comp/max_shear_1D.png>
-Package pdftex.def Info: sphere_comp/max_shear_1D.png used on input line 1212.
+Package pdftex.def Info: sphere_comp/max_shear_1D.png used on input line 1215.
 (pdftex.def)             Requested size: 361.34999pt x 226.39384pt.
 
 
@@ -578,31 +577,31 @@ _annotate.png> <./sphere_comp/tension_axisym_contour.png> <./sphere_comp/tensio
 n_contour_3d_annotate.png> <./sphere_comp/max_shear_axisym_contour.png (PNG cop
 y)> <./sphere_comp/shear_contour_3d_annotate.png>] [19 <./sphere_comp/max_shear
 _1D.png (PNG copy)>]
-<cylinder/cylinder_comp_90_blue_2D_new.png, id=698, 974.64125pt x 558.085pt>
+<cylinder/cylinder_comp_90_blue_2D_new.png, id=697, 974.64125pt x 558.085pt>
 File: cylinder/cylinder_comp_90_blue_2D_new.png Graphic file (type png)
 
 <use cylinder/cylinder_comp_90_blue_2D_new.png>
 Package pdftex.def Info: cylinder/cylinder_comp_90_blue_2D_new.png used on inpu
-t line 1269.
+t line 1272.
 (pdftex.def)             Requested size: 189.31812pt x 108.405pt.
 
-<cylinder/cylinder_tens_90_blue_2D_new.png, id=699, 977.6525pt x 561.09625pt>
+<cylinder/cylinder_tens_90_blue_2D_new.png, id=698, 977.6525pt x 561.09625pt>
 File: cylinder/cylinder_tens_90_blue_2D_new.png Graphic file (type png)
 
 <use cylinder/cylinder_tens_90_blue_2D_new.png>
 Package pdftex.def Info: cylinder/cylinder_tens_90_blue_2D_new.png used on inpu
-t line 1270.
+t line 1273.
 (pdftex.def)             Requested size: 188.87372pt x 108.405pt.
 
-<cylinder/cylinder_shear_90_blue_2D_new.png, id=700, 982.67125pt x 562.1pt>
+<cylinder/cylinder_shear_90_blue_2D_new.png, id=699, 982.67125pt x 562.1pt>
 File: cylinder/cylinder_shear_90_blue_2D_new.png Graphic file (type png)
 
 <use cylinder/cylinder_shear_90_blue_2D_new.png>
 Package pdftex.def Info: cylinder/cylinder_shear_90_blue_2D_new.png used on inp
-ut line 1271.
+ut line 1274.
 (pdftex.def)             Requested size: 189.51341pt x 108.405pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1269--1272
+Underfull \hbox (badness 10000) in paragraph at lines 1272--1275
 [][] []
  []
 
@@ -610,51 +609,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 1269--1272
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<gapcylinder/gapcylinder_comp_90_blue_2D_new.png, id=701, 988.69376pt x 559.088
+<gapcylinder/gapcylinder_comp_90_blue_2D_new.png, id=700, 988.69376pt x 559.088
 75pt>
 File: gapcylinder/gapcylinder_comp_90_blue_2D_new.png Graphic file (type png)
  <use gapcylinder/gapcylinder_comp_90_blue_2D_new.png>
 Package pdftex.def Info: gapcylinder/gapcylinder_comp_90_blue_2D_new.png used o
-n input line 1277.
+n input line 1280.
 (pdftex.def)             Requested size: 191.70076pt x 108.405pt.
 
-<gapcylinder/gapcylinder_comp_45_blue_2D_new.png, id=702, 1002.74625pt x 566.11
+<gapcylinder/gapcylinder_comp_45_blue_2D_new.png, id=701, 1002.74625pt x 566.11
 5pt>
 File: gapcylinder/gapcylinder_comp_45_blue_2D_new.png Graphic file (type png)
  <use gapcylinder/gapcylinder_comp_45_blue_2D_new.png>
 Package pdftex.def Info: gapcylinder/gapcylinder_comp_45_blue_2D_new.png used o
-n input line 1278.
+n input line 1281.
 (pdftex.def)             Requested size: 192.00793pt x 108.405pt.
 
-<gapcylinder/gapcylinder_comp_60_blue_2D_new.png, id=703, 990.70125pt x 583.178
+<gapcylinder/gapcylinder_comp_60_blue_2D_new.png, id=702, 990.70125pt x 583.178
 76pt>
 File: gapcylinder/gapcylinder_comp_60_blue_2D_new.png Graphic file (type png)
  <use gapcylinder/gapcylinder_comp_60_blue_2D_new.png>
 Package pdftex.def Info: gapcylinder/gapcylinder_comp_60_blue_2D_new.png used o
-n input line 1279.
+n input line 1282.
 (pdftex.def)             Requested size: 184.15364pt x 108.405pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1277--1280
+Underfull \hbox (badness 10000) in paragraph at lines 1280--1283
 [][] []
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<bone_canal/bone_canal_2D_rgb_xy.pdf, id=704, 583.17876pt x 583.17876pt>
+<bone_canal/bone_canal_2D_rgb_xy.pdf, id=703, 583.17876pt x 583.17876pt>
 File: bone_canal/bone_canal_2D_rgb_xy.pdf Graphic file (type pdf)
 
 <use bone_canal/bone_canal_2D_rgb_xy.pdf>
 Package pdftex.def Info: bone_canal/bone_canal_2D_rgb_xy.pdf used on input line
- 1286.
+ 1289.
 (pdftex.def)             Requested size: 180.66786pt x 180.67499pt.
 
-<bone_canal/bone_canal_2D_rgb_xz_annotate.png, id=705, 1027.84pt x 1027.84pt>
+<bone_canal/bone_canal_2D_rgb_xz_annotate.png, id=704, 1027.84pt x 1027.84pt>
 File: bone_canal/bone_canal_2D_rgb_xz_annotate.png Graphic file (type png)
 
 <use bone_canal/bone_canal_2D_rgb_xz_annotate.png>
 Package pdftex.def Info: bone_canal/bone_canal_2D_rgb_xz_annotate.png used on i
-nput line 1287.
+nput line 1290.
 (pdftex.def)             Requested size: 180.67455pt x 180.67499pt.
 
 
@@ -665,61 +664,61 @@ s_90_blue_2D_new.png> <./cylinder/cylinder_shear_90_blue_2D_new.png> <./gapcyli
 nder/gapcylinder_comp_90_blue_2D_new.png> <./gapcylinder/gapcylinder_comp_45_bl
 ue_2D_new.png> <./gapcylinder/gapcylinder_comp_60_blue_2D_new.png>] [22 <./bone
 _canal/bone_canal_2D_rgb_xy.pdf> <./bone_canal/bone_canal_2D_rgb_xz_annotate.pn
-g>] <ossification/hip_ho_annotated.jpg, id=743, 967.615pt x 634.37pt>
+g>] <ossification/hip_ho_annotated.jpg, id=742, 967.615pt x 634.37pt>
 File: ossification/hip_ho_annotated.jpg Graphic file (type jpg)
 
 <use ossification/hip_ho_annotated.jpg>
 Package pdftex.def Info: ossification/hip_ho_annotated.jpg used on input line 1
-314.
+317.
 (pdftex.def)             Requested size: 220.46497pt x 144.54pt.
 
-<ossification/shear_hip_2D_1storder_annotate_F2.png, id=744, 1027.84pt x 1027.8
+<ossification/shear_hip_2D_1storder_annotate_F2.png, id=743, 1027.84pt x 1027.8
 4pt>
 File: ossification/shear_hip_2D_1storder_annotate_F2.png Graphic file (type png
 )
  <use ossification/shear_hip_2D_1storder_annotate_F2.png>
 Package pdftex.def Info: ossification/shear_hip_2D_1storder_annotate_F2.png use
-d on input line 1315.
+d on input line 1318.
 (pdftex.def)             Requested size: 144.53964pt x 144.54pt.
 
-<ossification/idealoss_shear_rotate_2D_annotate.png, id=745, 1027.84pt x 1027.8
+<ossification/idealoss_shear_rotate_2D_annotate.png, id=744, 1027.84pt x 1027.8
 4pt>
 File: ossification/idealoss_shear_rotate_2D_annotate.png Graphic file (type png
 )
  <use ossification/idealoss_shear_rotate_2D_annotate.png>
 Package pdftex.def Info: ossification/idealoss_shear_rotate_2D_annotate.png use
-d on input line 1323.
+d on input line 1326.
 (pdftex.def)             Requested size: 180.67455pt x 180.67499pt.
 
-<ossification/idealoss_shear_2D_annotate.png, id=746, 1027.84pt x 1027.84pt>
+<ossification/idealoss_shear_2D_annotate.png, id=745, 1027.84pt x 1027.84pt>
 File: ossification/idealoss_shear_2D_annotate.png Graphic file (type png)
 
 <use ossification/idealoss_shear_2D_annotate.png>
 Package pdftex.def Info: ossification/idealoss_shear_2D_annotate.png used on in
-put line 1324.
+put line 1327.
 (pdftex.def)             Requested size: 180.67455pt x 180.67499pt.
  [23 <./ossification/hip_ho_annotated.jpg> <./ossification/shear_hip_2D_1storde
 r_annotate_F2.png> <./ossification/idealoss_shear_rotate_2D_annotate.png> <./os
 sification/idealoss_shear_2D_annotate.png>] (./eswt.bbl [24] [25] [26] [27]) [2
 8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1411.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1411.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1414.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1414.
  (./eswt.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1411.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1411.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1414.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1414.
 
 Package rerunfilecheck Info: File `eswt.out' has not changed.
 (rerunfilecheck)             Checksum: 5BCCC1B2561FF3B781E15C2135CCD93A;1335.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1411.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1414.
  ) 
 Here is how much of TeX's memory you used:
- 8690 strings out of 493488
- 118790 string characters out of 3141326
- 231937 words of memory out of 3000000
- 11699 multiletter control sequences out of 15000+200000
+ 8678 strings out of 493488
+ 118602 string characters out of 3141326
+ 231962 words of memory out of 3000000
+ 11693 multiletter control sequences out of 15000+200000
  12970 words of font info for 50 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 32i,13n,32p,1235b,436s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,13n,32p,1231b,436s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><
 /usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
@@ -740,10 +739,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2012/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2012/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2012/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on eswt.pdf (28 pages, 1716324 bytes).
+Output written on eswt.pdf (28 pages, 1715530 bytes).
 PDF statistics:
- 911 PDF objects out of 1000 (max. 8388607)
- 754 compressed objects within 8 object streams
- 173 named destinations out of 1000 (max. 500000)
+ 904 PDF objects out of 1000 (max. 8388607)
+ 747 compressed objects within 8 object streams
+ 167 named destinations out of 1000 (max. 500000)
  318 words of extra memory for PDF output out of 10000 (max. 10000000)
 
