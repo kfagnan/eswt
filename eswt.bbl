@@ -12,11 +12,6 @@ M.A. Averkiou and R.O. Cleveland.
 \newblock {\em Journal for the Acoustical Society of America}, 106(1):102--112,
   1999.
 
-\bibitem{eswt_evidence_2010}
-MD~B.~Zelle and et. al.
-\newblock Extracorporeal shock wave therapy: Current evidence.
-\newblock {\em Journal of Orthopaedic Trauma}, 24(3):s66--s70, 2010.
-
 \bibitem{db-rjl-sm-jr:vcflux}
 D.~Bale, R.~J. LeVeque, S.~Mitran, and J.~A. Rossmanith.
 \newblock A wave-propagation method for conservation laws and balance laws with
@@ -79,16 +74,17 @@ L.E. Claes, H.J. Wilke, P.~Augat, S.~Rubenacker, and K.J. Margevicius.
   external fixation.
 \newblock {\em Cinical Biomechanics}, 10:227--234, 1995.
 
+\bibitem{clawpack}
+{Clawpack Team}.
+\newblock {\sc Clawpack} software.
+\newblock \url{http://www.clawpack.org}.
+
 \bibitem{oleg_cleveland}
 R.O. Cleveland and O.~Sapozhnikov.
 \newblock Modeling elastic wave propagation in kidney stones with application
   to shock wave lithotripsy.
 \newblock {\em Journal of the Acoustical Society of America},
   118(4):2667--2676, 2005.
-
-\bibitem{colella_communication}
-P.~Colella.
-\newblock Personal communication, 2009.
 
 \bibitem{coleman}
 A.J. Coleman, J.~Saunders, R.~Preston, and D.~Bacon.
@@ -101,10 +97,6 @@ P.J.~Prendergast D.~Lacroix.
 \newblock A mechano-regulation model for tissue differentiation during
   fracture-healing: analysis of gap size and loading.
 \newblock {\em The Journal of Biomechanics}, 35:1163--1171, 2002.
-
-\bibitem{clawpack}
-R.J.~LeVeque et. al.
-\newblock \url{http://www.clawpack.org}, 2006.
 
 \bibitem{fagnan:phd}
 K.~Fagnan.
@@ -179,11 +171,6 @@ M.J. Ivings, D.M. Causon, and E.F. Toro.
 \newblock {\em International Journal for Numerical Methods in Fluids},
   28:395--418, 1998.
 
-\bibitem{orthotripsy_ogden}
-MD~J.A.~Ogden, MD~R.~G.~Alvarez, MD~R.~Levitt, and RN~M.~Marlow.
-\newblock Shock wave therapy (orthotripsy) in musculoskeletal disorders.
-\newblock {\em Clinical Orthopaedics and Related Research}, 387:22--40, 2001.
-
 \bibitem{keaveny}
 T.~Keaveny, X.E. Guo, E.F. Wachtel, T.A. McMahon, and W.C. Hayes.
 \newblock Trabecular bone exhibits fully linear elastic behavior and yields at
@@ -206,19 +193,22 @@ J.~O. Langseth and R.~J. LeVeque.
   conservation laws.
 \newblock {\em J. Comput. Phys.}, 165:126--166, 2000.
 
-\bibitem{lemoine:pc}
-G.~Lemoine.
-\newblock in preparation.
+\bibitem{Lemoine-phd}
+G.~I. Lemoine.
+\newblock {\em Numerical Modeling of Poroelastic-Fluid Systems Using
+  High-Resolution Finite Volume Methods}.
+\newblock PhD thesis, University of Washington, 2013.
+
+\bibitem{LemoineOuLeVeque2013}
+G~I Lemoine, M-Y Ou, and R~J LeVeque.
+\newblock High-resolution finite volume modeling of wave propagation in
+  orthotropic poroelastic media.
+\newblock {\em SIAM J. Sci. Comput.}, 35:B176--B206, 2013.
 
 \bibitem{rjl:wpalg}
 R.~J. LeVeque.
 \newblock Wave propagation algorithms for multi-dimensional hyperbolic systems.
 \newblock {\em J. Comput. Phys.}, 131:327--353, 1997.
-
-\bibitem{claw.org.url}
-R.~J. LeVeque, M.~J. Berger, et~al.
-\newblock {\sc clawpack} software.
-\newblock \href{http://www.clawpack.org}{www.clawpack.org}.
 
 \bibitem{rjl_book}
 R{andall}.~J. LeVeque.
@@ -337,12 +327,6 @@ CH~Turner and FM~Pavalko.
   physical stress: the mechanisms and mechanics of bone adaptation.
 \newblock {\em Journal of Orthopaedic Science}, 3:346--355, 1998.
 
-\bibitem{valchanou}
-VD~Valchanou and P~Michailov.
-\newblock High energy shock waves in the treatment of delayed and nonunion of
-  fractures.
-\newblock {\em International Orthopaedics}, 15(3):181--184, 1991.
-
 \bibitem{eswt_vegf}
 C.-J. Wang, K.-E. Huang, Y.-C. Sun, Y.-J. Yang, J.-Y. Ko, L.-H. Weng, and F.-S.
   Wang.
@@ -362,16 +346,5 @@ S~Weinbaum, SC~Cowin, and Y~Zeng.
 \newblock A model for the excitation of osteocytes by mechanical
   loading-induced bone fluid shear stress.
 \newblock {\em Journal of Biomechanics}, 27:339--360, 1994.
-
-\bibitem{wolf2001}
-S~Wolf, P~Augat, K~Eckert-Hubner, A~Laule, GD~Krischak, and LE~Claes.
-\newblock Effects of high-frequency, low-magnitude mechanical stimulus on bone
-  healing.
-\newblock {\em Clinical Orthopaedics and Related Research}, 385:192--198, 2001.
-
-\bibitem{zelle2010}
-BA~Zelle, H~Gollwitzer, M~Zlowodzki, and V~Burhen.
-\newblock Extracorporeal shock wave therapy: Current evidence.
-\newblock {\em Journal of Orthopaedic Trauma}, 24(3 (Suppl)):S66--S70, 2010.
 
 \end{thebibliography}

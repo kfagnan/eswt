@@ -161,7 +161,7 @@ cavitation bubbles, as discussed below.
 
 Bone healing is thought to be regulated in part by mechanical factors \cite{morgan2008, huang2010, turner1998, robling2002,huang2010,goodship1985,turner1998}.  Several studies have shown that the application of cyclic compressive and shear displacements can enhance healing through increased callus formation and ossification \cite{morgan2008, robling2002, roblingcyclic2002, saxon2005,park1998,weinbaum1994}.  The results also indicate that treatment is also dependent upon the rate, mode and magnitude of the stress deposition\cite{morgan2008}, as well as the gap size \cite{claes1995}. 
 
-Carter, et al. \cite{carter1998}, as well as, Claes and Heigele \cite{claes1999}, proposed a model for skeletal tissue development based on hydrostatic pressure and tensile displacements \cite{claes1999}.  Other research has proposed a different model for skeletal tissue formation based on shear strain and fluid flow \cite{prendergast1997,lacroix2002}.  Augat, et al. \cite{augat2001}, found that tensile displacements are not effective in enhancing bone formation.  This was further validated when Isaksson, et al. \cite{isaksson2006} investigated the models in \cite{claes1999, carter1998, prendergast1997, lacroix2002} and found that shear strain and fluid flow, were more accurate predictors of bone growth. However, no single model was able to predict certain features of the bone formation and healing process \cite{morgan2008}, highlighting the need for further research in this area. 
+Carter, et al. \cite{carter1998}, as well as Claes and Heigele \cite{claes1999}, proposed a model for skeletal tissue development based on hydrostatic pressure and tensile displacements \cite{claes1999}.  Other research has proposed a different model for skeletal tissue formation based on shear strain and fluid flow \cite{prendergast1997,lacroix2002}.  Augat, et al. \cite{augat2001} found that tensile displacements are not effective in enhancing bone formation.  This was further validated when Isaksson, et al. \cite{isaksson2006} investigated the models in \cite{claes1999, carter1998, prendergast1997, lacroix2002} and found that shear strain and fluid flow, were more accurate predictors of bone growth. However, no single model was able to predict certain features of the bone formation and healing process \cite{morgan2008}, highlighting the need for further research in this area. 
 
  
 The shear waves generated at the fluid/solid interface have also been shown to be important in 
@@ -215,7 +215,7 @@ stress-strain relationship in the different materials.
 
 A high-resolution finite volume method is used to solve these equations.
 We use the wave-propagation algorithms described in \cite{rjl_book}
-and implemented in Clawpack \cite{claw.org.url}.  These are Godunov-type
+and implemented in Clawpack \cite{clawpack}.  These are Godunov-type
 methods for the hyperbolic system that use solutions to the Riemann problem
 between adjacent grid cells to determine a set of waves used to update the
 solution, and second-order correction terms with slope limiters are added to
@@ -445,7 +445,9 @@ This has been justified by noting studies that show that entropy changes across 
 even
 up to pressure jumps of 200 MPa \cite{nakahara}, which is beyond the range used in ESWT.
 To verify this assumption, we performed computational experiments to compare the Tammann and Tait 
-equations of state for typical ESWT shock waves.  Since we have used the f-wave approach in our computational model, we can solve \ref{eqn:2daxisymeuler} with a spatially-varying equation of state.  We set up an experiment where the resulting shockwave (generated using the Tammann equation of state), was over 150 MPa.  Figure \ref{fig:tait_tammann} a) shows the results from this experiment.  The black solid curve is the result from solving with the Tammann EOS in the entire domain.  The blue dashed curve shows the result gotten by switching to the Tait EOS at $x=50$.  This enabled us to compare the two equations of state with the exact same initial condition.  There is a small disagreement at $x=50$ caused by a slight reflection at the interface due to the change in the equation of state.  Otherwise, the pressure profiles are nearly identical, giving
+equations of state for typical ESWT shock waves.  Since we have used the
+f-wave approach in our computational model, we can solve
+(\ref{eqn:2daxisymeuler}) with a spatially-varying equation of state.  We set up an experiment where the resulting shockwave (generated using the Tammann equation of state), was over 150 MPa.  Figure \ref{fig:tait_tammann} a) shows the results from this experiment.  The black solid curve is the result from solving with the Tammann EOS in the entire domain.  The blue dashed curve shows the result gotten by switching to the Tait EOS at $x=50$.  This enabled us to compare the two equations of state with the exact same initial condition.  There is a small disagreement at $x=50$ caused by a slight reflection at the interface due to the change in the equation of state.  Otherwise, the pressure profiles are nearly identical, giving
 confidence that the calculations we are interested in can be done by solving the Euler equations with the 
 Tait equation of state. This allows us to drop the equation for energy and obtain the simplified system
 \begin{equation}
@@ -1118,11 +1120,12 @@ Regions are automatically de-refined once the wave passes by, since cells in the
 
 
 
-\begin{figure}[h!]
+\begin{figure}[t]
 \begin{center}
 \includegraphics[height=2.5in]{variable_deltax_pressure.pdf}
+\caption{
 \label{fig:steepening}
-\caption{Effect of grid size on shock wave profile.  As the grid is refined for the same initial condition, the shock wave profile steepens. The solution eventually converges to a profile with the same magnitude, though the convergence rate is only first order near a discontinuity. }
+Effect of grid size on shock wave profile.  As the grid is refined for the same initial condition, the shock wave profile steepens. The solution eventually converges to a profile with the same magnitude, though the convergence rate is only first order near a discontinuity. }
 \end{center}
 \end{figure}
 Figure \ref{fig:steepening} illustrates the behavior of the ESWT waveform as the grid is refined.  What is evident from these experiments is that a coarse grid will not effectively capture the development of the shock, so around the propagating wave, we need at least $\Delta x = .25mm$ resolution.  As the wave steepens into a shock, we no longer expect second order convergence, because in the region around a discontinuity, our methods are first order.  However, since the discontinuities occur in a small region of the domain, the overall methodology is still second order.  
@@ -1170,8 +1173,8 @@ centered $z=-115$ (the focus F1 of the ellipsoidal reflector). Three levels of A
 grid lines are shown only on levels 1 and 2. The level 3 grid has a resolution of $\Delta z =
 \Delta r = 0.25$mm. a) At $t=10$ the pulse has nearly reached the reflector. b) At $t=70$ the
 incident, transmitted, and reflected pulses are visible. c) At $t=180$ the reflected pulse has
-focussed near $z=115$ (the focus F2). d) The time history of the pressure at F2. The direct
-(unreflected) wave passes F2 at $t\approx 150$ and the focussed pulse arrives at $t\approx 180$.}
+focused near $z=115$ (the focus F2). d) The time history of the pressure at F2. The direct
+(unreflected) wave passes F2 at $t\approx 150$ and the focused pulse arrives at $t\approx 180$.}
 \end{center}
 \end{figure}
 \clearpage
@@ -1344,7 +1347,7 @@ figure and have the shading be different - I haven't yet determined how to do th
 In this paper we have proposed a new model for ESWT.  We have demonstrated that the Tait 
 equation of state is sufficient for the pressures that arise in ESWT, that enables us to drop the energy equation from our model.  We have shown that the fluid and 
 solid can be modeled with the same set of Lagrangian equations since the particle displacements are 
-small.  This approach allowed us to utilized existing numerical methodology, consisting of 
+small.  This approach allowed us to utilize existing numerical methodology, consisting of 
 high-resolution shock-capturing methods together with adaptive mesh refinement, to efficiently 
 calculate solutions to these equations for a variety of idealized biological problems.  We have 
 also demonstrated that we can effectively handle interfaces between different materials on Cartesian 
@@ -1389,8 +1392,8 @@ currently underway in this direction, and also on intermediate levels of
 modeling in which the bone is modeled as an orthotropic poroelastic
 material.  These equations can be solved with essentially the same high
 resolution finite volume methods used here, after implementing a more
-complicated Riemann solver \cite{lemoine:pc}, and with the same software for
-adaptive mesh refinement.
+complicated Riemann solver \cite{Lemoine-phd,LemoineOuLeVeque2013}, 
+and with the same software for adaptive mesh refinement.
 Another possible extension is to
 investigate viscoelastic tissue models that may be superior to the
 Tait equation for water that is currently used.  
